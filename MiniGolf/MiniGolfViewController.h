@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MiniGolfViewController.h
 //  MiniGolf
 //
 //  Created by Bret Williams on 12/18/17.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-- (IBAction)unwindToThisVIew:(UIStoryboardSegue *)unwindSegue;
+@interface MiniGolfViewController : UIViewController
 
 @end
-

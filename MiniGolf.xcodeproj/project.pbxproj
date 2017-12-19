@@ -13,6 +13,7 @@
 		BA5277191FE87F7B0067B61E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA5277181FE87F7B0067B61E /* Assets.xcassets */; };
 		BA52771C1FE87F7B0067B61E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA52771A1FE87F7B0067B61E /* LaunchScreen.storyboard */; };
 		BA52771F1FE87F7B0067B61E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA52771E1FE87F7B0067B61E /* main.m */; };
+		BA5277271FE87FE70067B61E /* MiniGolfViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA5277261FE87FE70067B61E /* MiniGolfViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		BA52771B1FE87F7B0067B61E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA52771D1FE87F7B0067B61E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA52771E1FE87F7B0067B61E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BA5277251FE87FE70067B61E /* MiniGolfViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MiniGolfViewController.h; sourceTree = "<group>"; };
+		BA5277261FE87FE70067B61E /* MiniGolfViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MiniGolfViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				BA52771A1FE87F7B0067B61E /* LaunchScreen.storyboard */,
 				BA52771D1FE87F7B0067B61E /* Info.plist */,
 				BA52771E1FE87F7B0067B61E /* main.m */,
+				BA5277251FE87FE70067B61E /* MiniGolfViewController.h */,
+				BA5277261FE87FE70067B61E /* MiniGolfViewController.m */,
 			);
 			path = MiniGolf;
 			sourceTree = "<group>";
@@ -145,6 +150,7 @@
 				BA5277141FE87F7B0067B61E /* ViewController.m in Sources */,
 				BA52771F1FE87F7B0067B61E /* main.m in Sources */,
 				BA5277111FE87F7B0067B61E /* AppDelegate.m in Sources */,
+				BA5277271FE87FE70067B61E /* MiniGolfViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
