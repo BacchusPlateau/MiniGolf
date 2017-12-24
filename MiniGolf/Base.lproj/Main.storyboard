@@ -36,6 +36,11 @@
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="0Xd-AG-TNL">
+                    <connections>
+                        <segue destination="4ot-RZ-jFt" kind="presentation" id="iGI-Di-5TN"/>
+                    </connections>
+                </swipeGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="121.73913043478262" y="79.891304347826093"/>
         </scene>
@@ -56,6 +61,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Exit Game"/>
                                 <connections>
+                                    <action selector="exitGame:" destination="4ot-RZ-jFt" eventType="touchUpInside" id="4eX-uO-Tf6"/>
                                     <segue destination="V4u-7i-4Oj" kind="unwind" unwindAction="unwindToThisVIew:" id="LgO-wC-B2r"/>
                                 </connections>
                             </button>
@@ -66,10 +72,17 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cup" translatesAutoresizingMaskIntoConstraints="NO" id="MD1-dy-j2I">
+                                <rect key="frame" x="195" y="50" width="24" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="gWI-d1-Myr"/>
                     </view>
+                    <connections>
+                        <outlet property="StrokeCount" destination="BFu-Gc-KzK" id="eey-L4-h89"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="y2N-fo-Cix" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="V4u-7i-4Oj" userLabel="Exit" sceneMemberID="exit"/>
@@ -79,6 +92,10 @@
     </scenes>
     <resources>
         <image name="background" width="640" height="1136"/>
+        <image name="cup" width="32" height="32"/>
         <image name="gameBackground" width="640" height="1136"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="iGI-Di-5TN"/>
+    </inferredMetricsTieBreakers>
 </document>

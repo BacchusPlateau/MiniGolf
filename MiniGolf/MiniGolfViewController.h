@@ -10,4 +10,14 @@
 
 @interface MiniGolfViewController : UIViewController
 
+@property NSString *gameState;
+@property UIImage *playerBall;
+@property UIImageView *playerBallView;
+@property CGRect ballRect;
+@property CGRect cupRect;
+@property (strong) NSTimer *updateTimer;
+
+@property (strong, nonatomic) IBOutlet UILabel *StrokeCount;
+- (IBAction)exitGame:(id)sender;
+
 @end
